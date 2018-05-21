@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// find and press on the note
 
 // Create a new component, This component should produce
 // some html

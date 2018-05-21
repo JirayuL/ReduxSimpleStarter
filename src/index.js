@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// find and press on the note
+import SearchBar from './components/search_bar';
+
+
 
 // Create a new component, This component should produce
 // some html
 const App = () => {
-  return <div>Hi!</div>;
+  return (
+    <div>
+      <SearchBar />
+    </div>
+  );
 }
 
 // Take this component's generate HTML and put it
